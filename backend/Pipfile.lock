@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0383a984f73fe2701c1f0322b4e55fd2810a0f7f90f82bfed5473dd13a23f8d8"
+            "sha256": "944ad6dc5061176607b57a3561573e605a03869ed25128fa9270446566033154"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -63,6 +63,10 @@
         "cb-camera": {
             "editable": true,
             "path": "./modules/camera"
+        },
+        "cb-payments": {
+            "editable": true,
+            "path": "./modules/payments"
         },
         "certifi": {
             "hashes": [
@@ -992,6 +996,14 @@
             ],
             "markers": "python_version >= '3.5'",
             "version": "==0.4.3"
+        },
+        "stripe": {
+            "hashes": [
+                "sha256:d39a557fe3bbf75db181dce25b5d6d62039a65b024a7854cdd67eedf9169bfcc",
+                "sha256:ffab4b53dda04197d641acec98150327860bf8535e14b522775f0aa3e2379ce1"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==2.26.0"
         },
         "tomli": {
             "hashes": [
