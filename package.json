@@ -12,6 +12,7 @@
     "web:build": "./node_modules/.bin/webpack --config ./webpack.config.js --color --mode production"
   },
   "dependencies": {
+    "@modules/basiq-payments": "file:./modules/basiq-payments",
     "@modules/camera": "file:./modules/camera",
     "@modules/privacy-policy-webview": "file:./modules/privacy-policy-webview/",
     "@modules/social-login": "file:./modules/social-login/",

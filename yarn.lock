@@ -1026,6 +1026,9 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
+"@modules/basiq-payments@file:./modules/basiq-payments":
+  version "1.0.1"
+
 "@modules/camera@file:./modules/camera":
   version "1.0.1"
   dependencies:
@@ -1049,7 +1052,7 @@
 "@modules/splash@file:./modules/splash":
   version "1.0.0"
 
-"@modules/terms-and-conditions-webview@file:./modules/terms-and-conditions-webview/":
+"@modules/terms-and-conditions-webview@file:./modules/terms-and-conditions-webview":
   version "1.0.0"
 
 "@modules/user-profile@file:./modules/user-profile":
