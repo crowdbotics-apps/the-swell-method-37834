@@ -1,18 +1,26 @@
-import mods from "./*/index.js";
-export const screens = mods.map(mod => {
-  return Object.assign(mod, {
-    value: {
-      navigator: mod.value,
-      title: mod.name
-    }
-  });
-});
-export function getNavigationScreen(name) {
-  const screen = screens.find(screen => screen.name == name);
+import React from "react";
+import { Text, StyleSheet, View } from "react-native";
 
-  if (screen) {
-    return screen.name;
+const AppointmentCalendarScreen = (params) => {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.headingTxt}>Appointment Calendar Screen</Text>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    margin: 20,
+    flex: 1,
+    justifyContent: "space-around"
+  },
+  headingTxt: {
+    fontSize: 24,
+    fontWeight: "bold",
+    padding: 2,
+    marginVertical: 12
   }
+});
 
-  return name;
-}
+export default AppointmentCalendarScreen;
