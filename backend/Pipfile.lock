@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "944ad6dc5061176607b57a3561573e605a03869ed25128fa9270446566033154"
+            "sha256": "549d2deec23f700f19212c36aee88a2b609bde73e783f8aa793b4aaa94969ffa"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -18,11 +18,11 @@
     "default": {
         "attrs": {
             "hashes": [
-                "sha256:29adc2665447e5191d0e7c568fde78b21f9672d344281d0c6e1ab085429b22b6",
-                "sha256:86efa402f67bf2df34f51a335487cf46b1ec130d02b8d39fd248abfd30da551c"
+                "sha256:29e95c7f6778868dbd49170f98f8818f78f3dc5e0e37c0b1f474e3561b240836",
+                "sha256:c9227bfc2f01993c03f68db37d1d15c9690188323c067c641f1a35ca58185f99"
             ],
-            "markers": "python_version >= '3.5'",
-            "version": "==22.1.0"
+            "markers": "python_version >= '3.6'",
+            "version": "==22.2.0"
         },
         "beautifulsoup4": {
             "hashes": [
@@ -67,6 +67,10 @@
         "cb-payments": {
             "editable": true,
             "path": "./modules/payments"
+        },
+        "cb-terms-and-conditions": {
+            "editable": true,
+            "path": "./modules/terms_and_conditions"
         },
         "certifi": {
             "hashes": [
@@ -675,11 +679,11 @@
         },
         "pipenv": {
             "hashes": [
-                "sha256:2573211d3c9f5adba774572de85bbedfbc586516960e860bafcb299004c0ae81",
-                "sha256:7fdeca8c2feb143e46bd5f50a45643e274c0813c3471f845a1cfb301f96aab4e"
+                "sha256:56a0e9305912293a8205e23b836b4abb9bca912fd5ef131214cdcdbc1861a1cc",
+                "sha256:eed9c479d918a809deec23a4136f2b66091f035c849012acca3a9898d5f0938f"
             ],
             "index": "pypi",
-            "version": "==2022.12.17"
+            "version": "==2022.12.19"
         },
         "platformdirs": {
             "hashes": [

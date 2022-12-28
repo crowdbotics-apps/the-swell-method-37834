@@ -35,3 +35,4 @@ pipenv = "*"
 cb-camera = {editable = true, path = "./modules/camera"}
 cb-basiq-payments = {editable = true, path = "./modules/basiq_payments"}
 cb-payments = {editable = true, path = "./modules/payments"}
+cb-terms-and-conditions = {editable = true, path = "./modules/terms_and_conditions"}
